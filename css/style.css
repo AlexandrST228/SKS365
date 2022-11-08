@@ -127,6 +127,7 @@ margin: 10px 0 0 0;
 }
 .Zagolovok{
     margin: 20px auto;
+    width: 100%;
 }    
 .zagolovki h1{
     font-size: 28px;
@@ -152,13 +153,14 @@ margin: 10px 0 0 0;
 .proizv_1{
     display: flex;
     margin: 30px 0 0 10px;
-    
+    width: 100%;
 }
 
 .proizv_1 img{
     display: flex;
     margin: 0 0 0 40px;
     border: 2px solid black;
+    
 }
 
 .proizv_2{
@@ -216,25 +218,87 @@ margin: 0 auto;
 
 }
 
-@media (max-width: 1440px)
+@media (max-width: 1540px)
 {
-
+    header p{
+        width: 435px;
+        height: 75px;
+        background-color: #E5E5E1;
+        border: 3px solid black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 23px 0 0 0;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
 
-@media (max-width: 1024px)
+@media (max-width: 1324px)
 {
-
+    header p{
+        width: 335px;
+        height: 75px;
+        background-color: #E5E5E1;
+        border: 3px solid black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 23px 0 0 0;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
 
-@media (max-width: 768px)
+@media (max-width: 1027px)
 {
-
+    header p{
+        width: 305px;
+        height: 75px;
+        background-color: #E5E5E1;
+        border: 3px solid black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 23px 0 0 0;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
 
-@media (max-width: 435px)
+@media (max-width: 868px)
 {
-
+    header p{
+        width: 255px;
+        height: 75px;
+        background-color: #E5E5E1;
+        border: 3px solid black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 23px 0 0 0;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
+
+
+@media (max-width: 635px)
+{
+    header p{
+        width: 155px;
+        height: 75px;
+        background-color: #E5E5E1;
+        border: 3px solid black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 23px 0 0 0;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
 
 @media (max-width: 375px)
 {
